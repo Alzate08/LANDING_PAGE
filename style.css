@@ -96,3 +96,34 @@ transform: translateY(0);
 .hero{
 animation: fadeIn 1.5s ease;
 }
+.contact{
+text-align:center;
+padding:60px 20px;
+}
+
+.contact-container{
+display:flex;
+justify-content:center;
+gap:30px;
+flex-wrap:wrap;
+margin-top:30px;
+}
+
+.contact-card{
+background:white;
+padding:25px;
+border-radius:12px;
+width:220px;
+box-shadow:0 5px 15px rgba(0,0,0,0.1);
+transition:0.3s;
+}
+
+.contact-card:hover{
+transform:translateY(-5px);
+}
+
+.contact-card a{
+text-decoration:none;
+color:#0077ff;
+font-weight:bold;
+}
